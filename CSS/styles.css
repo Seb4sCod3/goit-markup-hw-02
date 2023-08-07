@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main--secondaryColor);
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+:root {
+  --main--primaryColor: rgb(33, 150, 243);
+  --main--secondaryColor: rgb(33, 33, 33);
+  --main--tertiaryColor: rgb(255, 255, 255);
+  --main--fourthcolor: rgb(117, 117, 117);
+  --main--backgroundColor: rgb(47, 48, 58);
+  --main--backgroundColorTeam: rgba(255, 255, 255, 1);
+  --main--fontfooter1: rgba(255, 255, 255, 1);
+  --main--fontfooter2: rgba(255, 255, 255, 0.6);
+}
+.icon {
+  color: var(--main--primaryColor);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navigation-bar .navigation-link {
+  color: var(--main--secondaryColor);
+  font-weight: 500;
+  list-style: none;
+}
+
+.navigation-bar .navigation-link:hover {
+  color: var(--main--primaryColor);
+}
+
+.navigation-item {
+  list-style: none;
+}
+.navigation-link {
+  text-decoration: none;
+}
+
+.contacts .contacts-links {
+  color: var(--main--fourthcolor);
+}
+
+.contacts .contacts-links:hover {
+  color: var(--main--primaryColor);
+}
+
+.contacts {
+  list-style: none;
+}
+.contacts-links {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/*Main*/
+
+.principal-section {
+  background-color: var(--main--backgroundColor);
+  text-align: center;
+}
+.section-title {
+  font-weight: 900;
+  color: var(--main--tertiaryColor);
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+
+.question-button {
+  background-color: var(--main--primaryColor);
+  font-weight: 700;
+  color: var(--main--tertiaryColor);
+  width: 261px;
+  height: 60px;
+  top: 430px;
+  left: 666px;
+  border-radius: 4px;
+  padding: 10px, 32px, 10px, 32px;
+  gap: 10px;
+  border-color: transparent;
+}
+
+.about-us-item {
+  list-style: none;
+}
+.about-titles {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.about-text {
+  color: var(--main--fourthcolor);
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+}
+.services-items {
+  list-style: none;
+}
+.services-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.team-item {
+  list-style: none;
+  background-color: var(--main--backgroundColorTeam);
+  width: 270px;
+  height: 368px;
+  top: 1696px;
+  left: 208px;
+  border-radius: 0px, 0px, 4px, 4px;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.team-position {
+  color: var(--main--fourthcolor);
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+/* footer */
+.footer-list {
+  list-style: none;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: var(--main--fontfooter2);
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+}
+.footer-addres {
+  text-decoration: none;
+  color: var(--main--fontfooter1);
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+}
+.footer-page {
+  background-color: var(--main--backgroundColor);
+}
+
+/* portafolio */
+.button-item {
+  list-style-type: none;
+}
+.button-nav {
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.button-nav:hover {
+  background-color: var(--main--primaryColor);
+  color: var(--main--tertiaryColor);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.button-nav:focus {
+  background-color: var(--main--primaryColor);
+  color: var(--main--tertiaryColor);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.projects-items {
+  list-style: none;
+  width: 370px;
+  height: 404px;
+  top: 274px;
+  left: 215px;
+  border: 1px;
+}
+
+.projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.projects-description {
+  color: var(--main--fourthcolor);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
